@@ -49,7 +49,7 @@ public class ChatHub : Hub
         if (user.Groups is not null)
         {
             // a user does not have to belong to any gropus
-            // but if they do, register them with the Hub
+            // but if theu do, register them with the Hub
 
             foreach (string group in user.Groups.Split(','))
             {
